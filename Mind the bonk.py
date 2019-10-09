@@ -1,17 +1,12 @@
 #import random
-#yeet = Good job
-userPin = 1234
+userPin = 1234    #Sätter ett värde på variablen 
 
-if userPin == int(input("Skriv in din pinkod: ")):
+if userPin == int(input("Skriv in din pinkod: ")):   #Jämnför om värdet stämmer på variablen och 
     print("Please mind the Bonk")
 else:
-   exit()
-
-
-
+    exit()
 #f = open("saldo.txt", "r")
 #saldo = int(f.read())
-#print (saldo)
 #f.close()
 #saldo = 0.0
 #if pin != userPin:
@@ -20,14 +15,11 @@ else:
 #saldo = file.read()
 #print(saldo)
 #file.close()
-
 #saldo = 0.0
 # #saldo = random.randint (0,100000000)
 f = open("saldo.txt", 'r') #
 saldo = float(f.read())
 f.close()
-
-
 
 menu = 0
 while menu != 4:  #Detta är en loop som fungerar som en meny, med en vilkors sats med olika funktioner
@@ -48,11 +40,6 @@ while menu != 4:  #Detta är en loop som fungerar som en meny, med en vilkors sa
 f = open('saldo.txt', 'w')
 f.write(str(saldo))
 f.close()
-
-
-
-
-
 #while menu != 3:
 #    menu = int(input("Skriv in ditt val: "))
 #    if menu ==1: 
@@ -61,4 +48,3 @@ f.close()
 #        print("uttag")
 #    else:
 #        print("Fel eller avslut")
-
